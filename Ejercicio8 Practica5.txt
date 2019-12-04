@@ -1,0 +1,14 @@
+8.Escribe un programa que pida la anchura de un triángulo y lo dibuje de la
+ siguiente manera:
+
+anchura=int(input("Escriba la anchura del triángulo:"))
+aux=1
+for i in range (anchura):
+	asteriscos=aux*"*"
+	aux=aux+1
+	print(asteriscos)
+aux=aux-1
+for i in range (anchura-1):
+	aux=aux-1
+	asteriscos=aux*"*"
+	print(asteriscos)

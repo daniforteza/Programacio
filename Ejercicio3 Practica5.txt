@@ -1,0 +1,12 @@
+3.Escribe un programa que pida dos números y escriba la suma de enteros desde el primero
+ hasta el último.
+ 
+numero1 = int(input("Escriba un número entero: "))
+numero2 = int(input("Escriba un número entero mayor que el anterior:"))
+
+suma=0
+for i in range(numero1, numero2):
+		suma=suma+i
+		print (i ,end='+')
+print(numero2 "="suma)
+	

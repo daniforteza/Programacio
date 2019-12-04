@@ -1,0 +1,11 @@
+﻿11.Escribe un programa que pida un número e imprima todos sus divisores.
+
+numero=int(input("Por favor, escriba un número:"))
+aux=1
+mensaje="Los divisores son:"
+print(mensaje, end=" ")
+for i in range(numero+1):
+    if numero%(i+aux)==0:
+        aux=0
+        print(i,end=(','))
+	

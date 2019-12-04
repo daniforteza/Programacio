@@ -1,0 +1,13 @@
+﻿12.Escribe un programa que pida un número y escriba si primo o no
+
+numero=int(input("Escriba el numero:"))
+
+auxiliar = 0
+for i in range(1, numero + 1):
+    if numero % i == 0:
+        auxiliar = auxiliar + 1
+        if auxiliar == 2:
+            print ("El",numero,"es primo")
+    else:
+        if auxiliar>2:
+            print("El",numero,"no es primo")

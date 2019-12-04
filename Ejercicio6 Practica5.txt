@@ -1,0 +1,8 @@
+6.Escribe un programa que pida la altura de un triángulo y lo dibuje de la siguiente manera:
+
+altura=int(input("Escriba la altura del triángulo:"))
+aux=1
+for i in range (altura):
+	asteriscos=aux*"*"
+	aux=aux+1
+	print(asteriscos)

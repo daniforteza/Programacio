@@ -1,0 +1,14 @@
+5.Escribe un programa que pida la altura y ancho de un rectángulo y lo dibuje
+ de la siguiente manera:
+ 
+anchura=int(input("Escriba la anchura del rectángulo:"))
+altura=int(input("Escriba la altura del rectángulo:"))
+asteriscos=anchura*"*"
+if anchura==altura :
+	print("La altura es igual a la anchura , por lo tanto es un cuadrado,no puedo realizar la operación")
+else:
+	for i in range (altura-1):
+	    print(asteriscos)
+	
+	    
+		

@@ -1,0 +1,10 @@
+2.Escribe un programa que pida dos números y escriba qué números entre ese par de números son pares y cuáles impares
+
+numero1=int(input("Escriba el número 1:"))
+numero2=int(input("Escriba el número 2, mayor que el anterior:"))
+
+for i in range(numero1,numero2+1):
+    if i % 2 == 0:
+        print ("El número" ,i," es par.")
+    else:
+        print ("El número ",i," es impar")
