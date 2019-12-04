@@ -1,0 +1,13 @@
+2.Pida al usuario 5 números y diga si estos estaban en orden decreciente, 	creciente o desordenados.
+print ("Escribe 5 números en el orden que quieras,creciente , decreciente o desordenados")
+numero1=int(input("Escriba el número 1:"))
+numero2=int(input("Escriba el número 2:"))
+numero3=int(input("Escriba el número 3:"))
+numero4=int(input("Escriba el número 4:"))
+numero5=int(input("Escriba el número 5:"))
+if (numero1 >= numero2) and (numero2 >=numero3) and (numero3>=numero4) and (numero4>=numero5):
+	print ("Los numeros estan ordenados en orden creciente")
+elif (numero1<=numero2) and (numero2<=numero3) and (numero3<=numero4) and (numero4<=numero5):
+	print ("Los numeros estan ordenados en orden decreciente")
+else:
+	print("Los numero estan desordenados")

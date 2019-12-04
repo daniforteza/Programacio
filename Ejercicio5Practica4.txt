@@ -1,0 +1,25 @@
+5.Pida al usuario un importe en euros y diga si el cajero automático le puede dar dicho importe utilizando el mismo
+ billete y el más grande (recuerda que el billete puede ser de 500, 200, 100, 50, 20, 10 
+ 
+total=int(input("Escriba la cantidad que quiere retirar:"))
+resto1=int(total/500)
+resto2=int(total/200)
+resto3=int(total/100)
+resto4=int(total/50)
+resto5=int(total/20)
+resto6=int(total/10)
+resto7=int(total/5)
+if total%500==0:
+	print ("Te devolveran",resto1,"de 500")
+if total%200==0:
+    print ("Te devolveran",resto2,"de 200")
+if total%100==0:
+    print ("Te devolveran",resto3,"de 100")
+if total%50==0:
+    print ("Te devolveran",resto4,"de 50")
+if total%20==0:
+    print ("Te devolveran",resto5,"de 20")
+if total%10==0:
+    print ("Te devolveran",resto6,"de 10")
+if total%5==0:
+    print ("Te devolveran",resto7,"de 5")

@@ -1,0 +1,31 @@
+1.Pida al usuario 5 números y diga cual es el mayor y cuál el menor.
+
+
+print ("Vamos a ver cual de los números es el mayor y cual el menor")
+print ("Escriba 5 números")
+numero1=int(input("Escriba el número 1:"))
+numero2=int(input("Escriba el número 2:"))
+numero3=int(input("Escriba el número 3:"))
+numero4=int(input("Escriba el número 4:"))
+numero5=int(input("Escriba el número 5:"))
+
+max=numero1
+min=numero1
+if max<numero2:
+	max=numero2
+if max<numero3:
+	max=numero3
+if max<numero4:
+	max=numero4
+if max<numero5:
+	max=numero5
+if min>numero2:
+	min=numero2
+if min>numero3:
+	min=numero3
+if min>numero4:
+	min=numero4
+if min>numero5:
+	min=numero5
+	
+print ("El numero mayor es",max,"y el numero menor es",min,)

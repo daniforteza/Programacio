@@ -1,0 +1,13 @@
+3.Pida al usuario si quiere calcular el área de un triángulo o un cuadrado, y pida los datos según que caso 
+y muestre el resultado.
+
+forma=int(input("Que área quieres calcular , la de un triángulo (escriba 1) o la de un cuadrado(escriba 2)?"))
+if forma == 1:
+	lado=int(input("Escriba la medida del lado:"))
+	Area=(lado*lado)
+	print ("El área es",Area,".")
+if forma==2:
+	base=int(input ("Escriba la medida de la base:"))
+	altura=int(input ("Escriba la medida de la altura:"))
+	area=(base*altura)/2
+	print ("El area es",area,".")
