@@ -1,0 +1,5 @@
+print ("Vamos a calcular el IVA del producto")
+precio=int(input("Cual es el precio del producto?"))
+nombre=input("Cual ha sido el producto que has comprado?")
+IVA=(precio*0.21)+precio
+print ("Tu",nombre,"vale",precio,"euros y con el 21% de IVA se queda en ",IVA,"euros en total.")

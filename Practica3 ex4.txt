@@ -1,0 +1,6 @@
+print ("Vamos a calcular la media recibida")
+calificacion1=int(input("Introduzca la calificacion 1:"))
+calificacion2=int(input("Introduzca la calificacion 2:"))
+calificacion3=int(input("Introduzca la calificacion 3:"))
+Media= (calificacion1+calificacion2+calificacion3)/3
+print ("Su media es ",Media,)

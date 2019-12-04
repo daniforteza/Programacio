@@ -1,0 +1,10 @@
+
+¿Qué función te informa del tipo de dato tiene almacenado una variable? Haz una prueba con los distintos tipos de datos que conoces.
+
+str "wikipedia"
+unicode u"wikipedia"
+list (4.0,"string , True)
+set  set(4.0,"string,True)
+int 42
+float 3.1415927
+bool True/False

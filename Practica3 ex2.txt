@@ -1,0 +1,5 @@
+print ("Vamos a calcular la velocidad media en la que has recorrido el trayecto")
+distancia= int(input("Cual ha sido el espacio recorrido?"))
+tiempo=int(input ("Cual ha sido el tiempo" ' en horas que'" ha tardado?"))
+vm=distancia/tiempo
+print ("La velocidad media fue de",vm,"km/h")

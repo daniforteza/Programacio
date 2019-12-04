@@ -1,0 +1,16 @@
+print("Vamos a calcular una fecha")
+día=int(input("Por favor , escriba el día"))
+més=int(input("Por favor , escriba el més"))
+año=int(input("Por favor , escriba el año"))
+if (día>31):
+	print("el dia no es valido.")
+if (més=1 or més=3 or més=5 or més=7 or més=8 or més=10 or més=12 and día>31):
+	print("el dia del més no es valido.")
+if (més=2 and día>28):
+	print("El día no es válido")
+if (més=4 or més=6 or més=9 or més=11 and día<28):
+	print ("El día no es valido")
+if (año<0 or año>2050):
+	print("el año no es valido.")
+else:
+	print ("La fecha es",día,/,més,/,año,)

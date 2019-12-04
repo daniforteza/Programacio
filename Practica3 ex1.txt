@@ -1,0 +1,2 @@
+Nombre= input("Cual es su nombre?")
+print "Su nombre es " ,Nombre,"."

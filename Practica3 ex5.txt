@@ -1,0 +1,8 @@
+print ("Por favor , escriba un número que no sea mayor a 3 cifras.")
+número=int(input("Escriba el numero"))
+if (número>999 or número<1):
+	print ("ERROR:El número",número,"tiene más de tres cifras.")
+else:
+
+	print ("El número es ,",numero,)
+	
